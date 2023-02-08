@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('./img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerNotes{
+    width: 35%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.containerNotes input{
+    width: 20%;
+    height: 60%;
+    border-radius: 1rem;
+    border: none;
+    background: #184F2C;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color: #ffffff;
+    font-size:2rem
+}
+
+.total{
+    margin: 0.5rem;
+    font-family: 'Signika', sans-serif;
+    color: #ffffff;
+    font-size:2rem
+}
+
+.container1, .container2, .container3{
+    margin: 0.5rem;
+    font-family: 'Signika', sans-serif;
+    color: #ddd9d9;
+    font-size:1.7rem;
+}
+
+.tittle{
+    margin: 0.5rem;
+    font-family: 'Signika', sans-serif;
+    color: #ddd9d9;
+    font-size:3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.calculate{
+    width: 9%;
+    height: 6%;
+    font-family: 'Signika', sans-serif;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    border: none;
+    margin: 2rem;
+    background-color: #C24B48;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.calculate:hover,
+.calculate:focus{
+    background-color: #c48653;
+    color: #ffffff;
+}
